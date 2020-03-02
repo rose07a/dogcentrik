@@ -318,6 +318,10 @@ section p {
 	color: black;
 }
 
+.contact p{
+	font-size:1.3em;
+	opacity:0.8;
+}
 @media (max-width:800px){
 	
 	.contact li{
@@ -444,7 +448,7 @@ th, td{
 	margin:50px auto;
 	border-radius: 10px;
 	font-size: 30px;
-	width: 700px;
+	width: 550px;
 	height: auto;
 	color: white;
 	text-align: center;
@@ -452,18 +456,23 @@ th, td{
     line-height:30px;
 }
 
+#littlep{
+	margin-top: 10px;
+	font-size:20px;
+}
+
 @media (max-width: 800px) {
 
  .direction{
  	font-size: 25px;
- 	width: 98%;
+ 	width:100%;
  	height: auto;
  	cursor: pointer;
   }
 
  iframe{
 	width: 95%;
-	height: auto;
+	height: 300px;
   }
 
 }
