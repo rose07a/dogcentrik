@@ -35,6 +35,13 @@ section {
 	padding:50px 80px;
 }
 
+a.pay{
+    font-weight: 600;
+    padding: 20px 40px;
+    color:#000;
+    background-color:#3EE924;
+}
+
 
 .grid {
 	width: 100%;
