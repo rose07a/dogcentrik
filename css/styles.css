@@ -32,14 +32,25 @@ section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding:50px 80px;
+	padding:30px 80px;
 }
 
 a.pay{
 	font-weight: 600;
-	padding: 20px 40px;
+	padding: 15px 30px;
     color:#000;
-    background-color:#3EE924;
+	background-color:#3EE924;
+	border-radius: 5px;
+	font-size: 23px;
+}
+
+header a.pay2{
+	font-weight: 600;
+	padding: 15px 25px;
+    color:#fff;
+	background-color:#3EE924;
+	border-radius: 10px;
+	margin-left:20px;
 }
 
 
@@ -51,7 +62,7 @@ a.pay{
 }
 
 hr {
-	width: 70%;
+	width: 50%;
 	height: 3px;
 	background-color: #3EE924;
 	border: 0;
@@ -79,7 +90,12 @@ section p {
 	}
 }
 
-
+.border{
+	padding: 20px 0;
+	margin:70px 0px;
+	width: 90%;
+	border: solid 5px #3EE924;
+}
 
 /*Header Styles*/
 
@@ -132,6 +148,7 @@ section p {
 
 }
 
+
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
 @media screen and (max-width: 500px) {
   .header a {
@@ -146,6 +163,11 @@ section p {
   .header-right {
     float: none;
   }
+
+  header a.pay2{
+	width: 200px;
+    float:right;
+}
 }
 
 /*Hero Styles*/
@@ -191,6 +213,7 @@ section p {
 }
 
 .hero-content-area {
+	width:100%;
 	opacity: 0;
 	margin-top: 100px;
 	animation: 1s slidefade 1s forwards;
@@ -205,7 +228,7 @@ section p {
 
 @media (max-width: 800px) {
 	.hero {
-		min-height: 600px;
+		min-height: 500px;
 	}
 
 	.hero img{
@@ -218,6 +241,9 @@ section p {
 		display: flex;
 		flex-direction: column;
 		font-size: 18px;
+	}
+	.hero a.pay {
+		padding: 15px 35px;
 	}
 }
 
@@ -263,7 +289,7 @@ section p {
 }
 
 .gallery div{
-	height: 300px;
+	height: 400px;
 	padding:10px;
 	background-clip: content-box;
 	background-size: cover;
@@ -271,11 +297,11 @@ section p {
 }
 
 .gallery .short{
-	flex-basis: 25%;
+	flex-basis: 50%;
 }
 
 .gallery .long{
-	flex-basis: 75%;
+	flex-basis: 50%;
 }
 
 @media (max-width: 1100px) {
@@ -294,6 +320,10 @@ section p {
 
 
 /*Packages Section*/
+
+.packages{
+	background-color:#F5F5F5;
+}
 
 .packages .grid li {
 	padding: 25px;
@@ -444,11 +474,11 @@ footer ul li {
 
 
 #inline img{
-	width: 250px;
-	height: 250px;
-	display: inline;
-	margin:15px 20px 40px 20px;
-	border-radius: 50%;
+	width: 500px;
+	height: auto;
+	margin:20px 0;
+	background-size:cover;
+	border-radius: 5%;
 	background-size: cover;
 }
 
@@ -456,6 +486,10 @@ footer ul li {
 
 	#inline{
 		text-align: center;
+	}
+
+	#inline img{
+		width:100%;
 	}
 }
 
