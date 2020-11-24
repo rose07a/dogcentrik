@@ -53,6 +53,15 @@ header a.pay2{
 	margin-left:20px;
 }
 
+a.pay3{
+	font-weight: 600;
+	padding: 15px 25px;
+    color:#000;
+	background-color:#3EE924;
+	border-radius: 10px;
+	margin:20px;
+}
+
 
 .grid {
 	width: 100%;
@@ -294,14 +303,15 @@ section p {
 	background-clip: content-box;
 	background-size: cover;
 	background-position: center;
+	border-radius:10%;
 }
 
 .gallery .short{
-	flex-basis: 50%;
+	flex-basis: 40%;
 }
 
 .gallery .long{
-	flex-basis: 50%;
+	flex-basis: 60%;
 }
 
 @media (max-width: 1100px) {
@@ -568,3 +578,23 @@ th, td{
   margin-top: 60px;
   border: 2px solid #3EE924;
 }
+
+.store img{
+ width:25%
+}
+
+.gallery div{
+	border-radius:10px;
+}
+
+table{
+	width:60%;
+}
+
+@media (max-width: 800px) {
+	table{
+		width:100%;
+	}
+}
+
+
