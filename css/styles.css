@@ -336,11 +336,18 @@ section p {
 		flex-basis: 50%;
 	}
 
-	.gallery #one,
-	.gallery #two,
-	.gallery #three,
-	.gallery #four{
+	.gallery #one{
 		background-position: center;
+	}
+	.gallery #two{
+		background-position:  bottom center;
+	}
+
+	.gallery #three{
+		background-position: bottom center;
+	}
+	.gallery #four{
+		background-position: bottom center;
 	}
 }
 
@@ -350,11 +357,18 @@ section p {
 		flex-basis: 100%;
 	}
 
-	.gallery #one,
-	.gallery #two,
-	.gallery #three,
-	.gallery #four{
+	.gallery #one{
 		background-position: center;
+	}
+	.gallery #two{
+		background-position:  bottom center;
+	}
+
+	.gallery #three{
+		background-position: bottom center;
+	}
+	.gallery #four{
+		background-position: bottom center;
 	}
 }
 
