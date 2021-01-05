@@ -435,6 +435,10 @@ section p {
 	}
 }
 
+.contact{
+	text-align:center;
+}
+
 .contact li {
 	margin: 10px auto;
 	padding: 20px;
@@ -465,6 +469,10 @@ section p {
 
 	.contact a{
       font-size:25px;
+	}
+
+	.contact h2{
+		font-size: 22px;
 	}
 }
 
