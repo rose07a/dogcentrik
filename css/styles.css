@@ -648,4 +648,11 @@ table{
 	}
 }
 
-
+#sunday{
+	background:#000;
+	color:#35B929;
+	font-size: 20px;
+	text-decoration:underline;
+	font-weight: 500;
+	padding:20px 10px;
+}
