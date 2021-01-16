@@ -656,3 +656,10 @@ table{
 	font-weight: 500;
 	padding:20px 10px;
 }
+
+@media (max-width: 800px) {
+	#sunday{
+		padding: 20px 0;
+		font-size:18px;
+	}
+}
