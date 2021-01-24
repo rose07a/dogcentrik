@@ -548,6 +548,23 @@ footer .smallcenter{
 	margin-bottom: 10px;
 }
 
+#lover img{
+	width: 500px;
+	height: auto;
+	margin:20px 0;
+	background-size:cover;
+	border-radius: 5%;
+}
+
+@media (max-width: 800px) {
+	#lover{
+		text-align: center;
+	}
+	#lover img{
+		width:95%;
+	}
+}
+
 
 #inline img{
 	width: 400px;
