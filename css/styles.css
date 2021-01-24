@@ -550,21 +550,19 @@ footer .smallcenter{
 
 
 #inline img{
-	width: 500px;
+	width: 400px;
 	height: auto;
 	margin:20px 0;
 	background-size:cover;
 	border-radius: 5%;
-	background-size: cover;
 }
 
 @media (max-width: 800px) {
 	#inline{
 		text-align: center;
 	}
-
 	#inline img{
-		width:100%;
+		width:80%;
 	}
 }
 
