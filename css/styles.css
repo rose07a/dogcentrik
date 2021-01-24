@@ -123,7 +123,7 @@ section p {
   padding: 12px;
   text-decoration: none;
   font-size: 18px; 
-  line-height: 25px;
+  line-height: 18px;
   border-radius: 4px;
 }
 
@@ -197,7 +197,7 @@ section p {
 	left:0;
 	width: 100%;
 	height: 100%;
-	background-size: 100% 100%;
+	background-size: cover;
 	z-index: -1;
     margin-bottom: 40px;
 }
@@ -206,11 +206,9 @@ section p {
 	color: #3EE924;
 }
 
-
-
 .hero h3 {
 	font: normal 32px "Open Sans", sans-serif;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 }
 
 .hero a.btn {
@@ -221,11 +219,15 @@ section p {
 	margin:20px;
 }
 
+.hero .godown {
+	margin-top:30px;
+}
+
 .hero-content-area {
 	width:100%;
 	opacity: 0;
-	margin-top: 100px;
 	animation: 1s slidefade 1s forwards;
+	font-size:20px;
 }
 
 @keyframes slidefade {
@@ -240,20 +242,20 @@ section p {
 		min-height: 500px;
 	}
 
+	.hero .background-image{
+		background-position: 50% 50%;
+	}
+
 	.hero img{
-      width: 310px;
+      width: 330px;
       margin: 0 auto;
 	}
 
 	.hero h3
 	 {
-		display: flex;
-		flex-direction: column;
 		font-size: 18px;
 	}
-	.hero a.pay {
-		padding: 15px 35px;
-	}
+
 }
 
 /*Destinations Section*/
@@ -492,7 +494,7 @@ footer {
 }
 
 footer div{
-	margin: 20px 0;
+	margin: 10px 0;
 	width:30%;
 }
 
@@ -510,6 +512,14 @@ footer .smallcenter{
  footer div{
 	 width:85%;
  }
+
+ footer .radial{
+	 margin-bottom:30px;
+ }
+
+ footer .smallcenter{
+	margin-top:-20px;
+}
 
 } 
 
@@ -622,8 +632,7 @@ table{
 	background:#000;
 	color:#35B929;
 	font-size: 20px;
-	text-decoration:underline;
-	font-weight: 500;
+	font-weight: 800;
 	padding:20px 10px;
 }
 
@@ -635,13 +644,13 @@ table{
 }
 
 .form iframe{
-	height:2750px;
+	height:2200px;
 }
 
 @media (max-width: 800px) {
 	.form iframe{
 		width:95%;
-		height:3000px;
+		height:2350px;
 	}
 }
 
