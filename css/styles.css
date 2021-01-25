@@ -521,6 +521,11 @@ footer .smallcenter{
 	margin-top:-20px;
 }
 
+footer li{
+	font-size: 16px;
+	margin:18px;
+}
+
 } 
 
 #background{
@@ -682,4 +687,28 @@ table{
 .radial h2{
 	margin-top:10px;
 	color:#35FF32;
-  }
+}
+
+
+.verytop{
+ position: fixed;
+ top: -30px;
+ width: 100%;
+ display:block;
+ background:#000;
+ color:white;
+ text-align:center;
+ height:30px;
+ font-size:18px;
+}
+
+.verytop ul{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.verytop a{
+	padding: 10px;
+}

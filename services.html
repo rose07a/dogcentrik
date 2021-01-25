@@ -13,7 +13,13 @@
 </head>
 <body>
 
-  
+  <div class="verytop" id="toptop">
+		<ul>
+      <li><a href="tel:+1-541-654-2367"><i class="fas fa-mobile-alt"></i> Call</a></li>
+      <li><i class="far fa-clock"></i><a href="index.html#contact"> Hours</a></li>
+      <li><i class="fas fa-map-marked-alt"></i><a href="#map2"> Location</a></li>
+    </ul>
+	</div>
   
   
   <header>
@@ -166,8 +172,12 @@
 
  <ul>
   <li>
+    <i class="fas fa-caret-up"></i>
+    <a href="#top">Back to top</a>
+  </li>
+  <li>
     <i class="far fa-calendar-alt"></i>
-    Mon-Sat 7:30am-2pm, 4pm-6:30pm
+    Mon-Sat 7:30am-6:30pm
   </li>
   <li>
     <i class="fas fa-mobile-alt"></i>
@@ -191,13 +201,27 @@
 
 <div class="smallcenter">
 
-<section class="direction">
+<section class="direction" id="map2">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2868.093711739769!2d-123.11276048455562!3d44.04011957910988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c11ff71d514f03%3A0x3effc83156769cff!2sDogcentrik!5e0!3m2!1sen!2sus!4v1568666079083!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
  </section>
  <small>Copyrightⓒ 2021. Dogcentrik. All Rights Reserved</small>
 </div>
 
 </footer>
+
+
+<script>
+  // When the user scrolls down 20px from the top of the document, slide down the navbar
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+      document.getElementById("toptop").style.top = "0";
+    } else {
+      document.getElementById("toptop").style.top = "-30px";
+    }
+  }
+  </script>
 
 </body>
 </html>
