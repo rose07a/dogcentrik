@@ -379,6 +379,10 @@ section p {
 /*Packages Section*/
 
 .packages{
+	background-color:#fff;
+}
+
+.packagess{
 	background-color:#F5F5F5;
 }
 
@@ -573,7 +577,7 @@ footer li{
 }
 
 .rate p{
-	font-size: 20px;
+	font-size: 18px;
 }
 
 table, th, td {
@@ -591,6 +595,7 @@ th, td{
 
 .payment{
 	margin: 20px;
+	margin-top: 40px;
 }
 
 .rate .method{
@@ -598,14 +603,9 @@ th, td{
 	line-height:30px;
 }
 
-.payment{
-	margin-top: 40px;
-}
-
 
 .closed{
   padding:30px 30px;
-  margin-top: 60px;
   border: 2px solid #3EE924;
 }
 
