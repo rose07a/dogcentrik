@@ -224,6 +224,7 @@ section p {
 }
 
 .hero-content-area {
+	z-index: 0;
 	width:100%;
 	opacity: 0;
 	animation: 1s slidefade 1s forwards;
@@ -700,6 +701,7 @@ table{
  text-align:center;
  height:30px;
  font-size:18px;
+ z-index:5;
 }
 
 .verytop ul{
