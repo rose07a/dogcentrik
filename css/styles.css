@@ -320,7 +320,7 @@ section p {
 }
 
 .gallery #one{
-    background-position: -20px -60px;
+    background-position: 50% 70%;
 }
 
 .gallery #two{
@@ -341,7 +341,7 @@ section p {
 	}
 
 	.gallery #one{
-		background-position: center;
+		background-position: center bottom;
 	}
 	.gallery #two{
 		background-position:  bottom center;
@@ -453,6 +453,10 @@ section p {
 	opacity:0.8;
 }
 @media (max-width:800px){
+    .contact{
+		padding-top:60px;
+	}
+
     .contact p{
 		font-size: 16px;
 		opacity:0.8;
@@ -678,13 +682,13 @@ table{
 
 .verytop{
  position: fixed;
- top: -30px;
+ top: -50px;
  width: 100%;
  display:block;
  background:#000;
  color:white;
  text-align:center;
- height:30px;
+ height:50px;
  font-size:18px;
  z-index:5;
 }
@@ -693,7 +697,7 @@ table{
 	display:flex;
 	flex-direction: row;
 	justify-content: space-around;
-	align-items: center;
+	padding-top:15px;
 }
 
 .verytop a{
