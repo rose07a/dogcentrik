@@ -686,7 +686,7 @@ table{
  width: 100%;
  display:block;
  background:#000;
- color:white;
+ color:#48F139;
  text-align:center;
  height:50px;
  font-size:18px;
@@ -702,6 +702,8 @@ table{
 
 .verytop a{
 	padding: 10px;
+	color:#48F139;
+	font-weight: 900;
 }
 
 
