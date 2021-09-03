@@ -756,3 +756,16 @@ table{
 	  display: block;
 	}
   }
+
+
+#october{
+	padding-top:50px;
+}
+
+#october i{
+	font-size:20px;
+}
+
+.deco{
+	text-decoration:underline;
+}
