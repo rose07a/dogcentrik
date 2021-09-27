@@ -38,7 +38,7 @@
    </div>
   </header>
 
-  <section id="sunday">
+  <section id="update">
     <div class="deco"> <a href="services.html#october"> -> CLICK HERE for changes that take effect Oct 1st</a> </div>
   </section>
 
@@ -230,7 +230,7 @@
   <script>
     var show = new Date();
  
-    if( show.getDay() == 0){
+    if( show.getDay() == 0 || show.getDay() == 6 ){
         document.getElementById("sunday").style.display = 'none';
     }
     else {

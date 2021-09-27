@@ -653,6 +653,21 @@ table{
 	}
 }
 
+#update{
+	background:#000;
+	color:#35B929;
+	font-size: 20px;
+	font-weight: 800;
+	padding:20px 10px;
+}
+
+@media (max-width: 800px) {
+	#update{
+		padding: 20px 0;
+		font-size:16px;
+	}
+}
+
 .form iframe{
 	height:450px;
 }
