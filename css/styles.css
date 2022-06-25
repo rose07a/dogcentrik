@@ -785,3 +785,8 @@ table{
 .deco{
 	text-decoration:underline;
 }
+
+.bl{
+	padding: 10%;
+	color: #2A9820;
+}
