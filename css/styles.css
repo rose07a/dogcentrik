@@ -28,11 +28,11 @@ a:hover {
 	opacity: 1;
 }
 
-section {
+section{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding:30px 80px;
+	padding:30px 30px;
 }
 
 a.pay{
@@ -669,13 +669,13 @@ table{
 }
 
 .form iframe{
-	height:370px;
+	height: 360px;
 }
 
 @media (max-width: 800px) {
 	.form iframe{
 		width:95%;
-		height:370px;
+		height:380px;
 	}
 }
 
@@ -789,4 +789,5 @@ table{
 .bl{
 	padding: 10%;
 	color: #2A9820;
+	text-decoration: underline;
 }
